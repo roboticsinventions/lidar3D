@@ -1,0 +1,16 @@
+<launch>
+	<arg name="working_mode" default="auto"/>
+ 
+    <node pkg="ri_sensor_scanner_3d" type="scanner_3d" name="lidar_3d" output="screen" >
+        <param name="path" type="str" value="/dev/bujadelko" />
+        <param name="baudrate" type="int" value="115200" />
+        <param name="max_angle" value="72" type="int" />
+        <param name="step" value="14" type="int" />
+
+        <!-- modes
+            manual  - scanner loads in manual mode and is set in 0 level
+            auto    - scanner rotates from 0 to max_angle
+        -->
+        <param name="mode" value="$(arg working_mode)"/>
+    </node>
+</launch>

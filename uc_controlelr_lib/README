@@ -1,0 +1,4 @@
+Library to controll motor of LIDAR 3D adapter.
+
+Compile with: arm-none-eabi-gcc
+Flash on: Cortex M3 STM32F103

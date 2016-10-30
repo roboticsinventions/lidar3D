@@ -1,0 +1,13 @@
+Packegs nodes:
+ - scanner_3d
+
+scanner_3d node:
+Listens on /lidar3d topic and transmitts position data to serial device controlling laser.
+
+Run:
+$ roslaunch ri_sensor_scanner_3d scanner_3d
+
+View 3D scan with rviz:
+1. Set base frame to /base_link
+2. Subscribe /scan with laser plugin
+NOTE: make sure laser frame_id is set to /laser_link by your laser driver
