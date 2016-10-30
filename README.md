@@ -7,6 +7,6 @@ Dotacje na innowacje. Inwestujemy w waszą przyszłość.
 
 Wartość dofinansowania: 2 530 365,50 PLN
 
-![img eu7_fleet](http://www.roboticsinventions.com/images/eu7_fleet.png)
+![img eu7_fleet](PARPlogo.png)
 
 
